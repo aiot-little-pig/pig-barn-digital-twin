@@ -1,0 +1,188 @@
+{
+  "schema_version": "twin-1",
+  "series": [
+    {
+      "farm_id": "DEMO-A",
+      "subject_id": "farm-average",
+      "label": "돈사 전체 대표값",
+      "scope": "farm",
+      "position": [
+        0,
+        1.2,
+        0
+      ],
+      "dataset_id": "SYNTHETIC-TWIN",
+      "dataset_version": "1",
+      "unit": "ppm",
+      "observation_source": "synthetic_fixture",
+      "position_basis": "assumed",
+      "policy": {
+        "min": 0,
+        "max": 30,
+        "warning": 15,
+        "danger": 22,
+        "basis": "UI 시연용 임의 기준 · 안전 기준 아님",
+        "demo": true
+      },
+      "records": [
+        {
+          "observed_at": "2024-01-01T00:00:00.000Z",
+          "nh3": 10,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:07:00.000Z",
+          "nh3": 14,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:15:00.000Z",
+          "nh3": 18,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:30:00.000Z",
+          "nh3": 24,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:37:00.000Z",
+          "nh3": 20,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:45:00.000Z",
+          "nh3": 15,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T01:00:00.000Z",
+          "nh3": 11,
+          "features": {}
+        }
+      ]
+    },
+    {
+      "farm_id": "DEMO-B",
+      "subject_id": "sensor-1",
+      "label": "센서 1",
+      "scope": "sensor",
+      "position": [
+        -3,
+        1.2,
+        -4
+      ],
+      "dataset_id": "SYNTHETIC-TWIN",
+      "dataset_version": "1",
+      "unit": "ppm",
+      "observation_source": "synthetic_fixture",
+      "position_basis": "assumed",
+      "policy": {
+        "min": 0,
+        "max": 30,
+        "warning": 15,
+        "danger": 22,
+        "basis": "UI 시연용 임의 기준 · 안전 기준 아님",
+        "demo": true
+      },
+      "records": [
+        {
+          "observed_at": "2024-01-01T00:00:00.000Z",
+          "nh3": 11,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:07:00.000Z",
+          "nh3": 15,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:15:00.000Z",
+          "nh3": 19,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:30:00.000Z",
+          "nh3": 25,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:37:00.000Z",
+          "nh3": 21,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:45:00.000Z",
+          "nh3": 16,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T01:00:00.000Z",
+          "nh3": 12,
+          "features": {}
+        }
+      ]
+    },
+    {
+      "farm_id": "DEMO-B",
+      "subject_id": "sensor-2",
+      "label": "센서 2",
+      "scope": "sensor",
+      "position": [
+        3,
+        1.2,
+        4
+      ],
+      "dataset_id": "SYNTHETIC-TWIN",
+      "dataset_version": "1",
+      "unit": "ppm",
+      "observation_source": "synthetic_fixture",
+      "position_basis": "assumed",
+      "policy": {
+        "min": 0,
+        "max": 30,
+        "warning": 15,
+        "danger": 22,
+        "basis": "UI 시연용 임의 기준 · 안전 기준 아님",
+        "demo": true
+      },
+      "records": [
+        {
+          "observed_at": "2024-01-01T00:00:00.000Z",
+          "nh3": 12,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:07:00.000Z",
+          "nh3": 16,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:15:00.000Z",
+          "nh3": null,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:30:00.000Z",
+          "nh3": 26,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:37:00.000Z",
+          "nh3": 22,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T00:45:00.000Z",
+          "nh3": 17,
+          "features": {}
+        },
+        {
+          "observed_at": "2024-01-01T01:00:00.000Z",
+          "nh3": 13,
+          "features": {}
+        }
+      ]
+    }
+  ]
+}

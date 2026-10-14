@@ -1,0 +1,17 @@
+{
+  "schema_version": "observations-1",
+  "dataset_id": "UI-TEST-ONLY",
+  "dataset_version": "fixture-1",
+  "farm_id": "DEMO-FARM",
+  "subject_id": "farm-aggregate",
+  "observation_source": "synthetic_fixture",
+  "unit": "ppm",
+  "nominal_interval_seconds": 300,
+  "feature_units": {},
+  "records": [
+    {"observed_at": "2024-01-01T00:00:00Z", "nh3": 10.0},
+    {"observed_at": "2024-01-01T00:05:00Z", "nh3": null},
+    {"observed_at": "2024-01-01T00:10:00Z", "nh3": 12.0},
+    {"observed_at": "2024-01-01T00:40:00Z", "nh3": 18.0}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "label": "센서 1 · 위치 확인 필요",
+  "position": [-3.0, 1.2, -3.0],
+  "position_basis": "assumed",
+  "scope": "sensor",
+  "policy": null,
+  "dataset": {
+    "schema_version": "observations-1",
+    "dataset_id": "REPLACE-WITH-DATASET-ID",
+    "dataset_version": "1",
+    "farm_id": "REPLACE-WITH-FARM-ID",
+    "subject_id": "REPLACE-WITH-SENSOR-ID",
+    "observation_source": "historical",
+    "unit": "ppm",
+    "nominal_interval_seconds": null,
+    "feature_units": {}
+  }
+}

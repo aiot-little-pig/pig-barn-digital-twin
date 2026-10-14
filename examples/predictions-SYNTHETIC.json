@@ -1,0 +1,28 @@
+{
+  "schema_version": "prediction-archive-1",
+  "records": [{
+    "schema_version": "prediction-1",
+    "request_id": "archived-demo-001",
+    "dataset_id": "UI-TEST-ONLY",
+    "dataset_version": "fixture-1",
+    "farm_id": "DEMO-FARM",
+    "subject_id": "farm-aggregate",
+    "condition_id": "baseline",
+    "model_id": "mock-persistence",
+    "model_version": "1",
+    "observation_source": "synthetic_fixture",
+    "prediction_source": "mock",
+    "unit": "ppm",
+    "issued_at": "2024-01-01T00:10:00Z",
+    "target_at": "2024-01-01T00:40:00Z",
+    "generated_at": null,
+    "horizon_minutes": 30,
+    "status": "ok",
+    "prediction": 12.0,
+    "lower": null,
+    "upper": null,
+    "nominal_coverage": null,
+    "interval_method": null,
+    "message": "Synthetic persistence example; not a trained model"
+  }]
+}

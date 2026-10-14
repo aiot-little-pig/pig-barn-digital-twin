@@ -1,0 +1,5 @@
+{
+  "mode": "http",
+  "url": "http://127.0.0.1:9000/predict",
+  "timeout_seconds": 5
+}

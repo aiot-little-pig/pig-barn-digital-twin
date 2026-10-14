@@ -1,0 +1,20 @@
+{
+  "schema_version": "prediction-1",
+  "request_id": "demo-request-001",
+  "dataset_id": "UI-TEST-ONLY",
+  "dataset_version": "fixture-1",
+  "farm_id": "DEMO-FARM",
+  "subject_id": "farm-aggregate",
+  "condition_id": "baseline",
+  "model_id": "mock-persistence",
+  "model_version": "1",
+  "observation_source": "synthetic_fixture",
+  "unit": "ppm",
+  "issued_at": "2024-01-01T00:10:00Z",
+  "horizon_minutes": 30,
+  "history": [
+    {"observed_at": "2024-01-01T00:00:00Z", "nh3": 10.0},
+    {"observed_at": "2024-01-01T00:05:00Z", "nh3": null},
+    {"observed_at": "2024-01-01T00:10:00Z", "nh3": 12.0}
+  ]
+}
