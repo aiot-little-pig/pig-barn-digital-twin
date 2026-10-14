@@ -97,4 +97,4 @@ File 예시는 계약 확인용이며 기본 3D 예시와 대상 ID·기준 시�
 .\backend\.venv\Scripts\python.exe scripts\package_release.py
 ```
 
-`deliverables/barn-digital-twin-2026-10-14-team.zip`에 팀 공유 문서·배포용 파일과 `MANIFEST.sha256.json` 해시 목록을 생성한다. `node_modules`, 가상환경, `.runtime`, 로컬 설정과 토큰은 포함하지 않는다.
+`deliverables/barn-digital-twin-2026-10-14-team.zip`에 실행 안내·배포용 파일과 `MANIFEST.sha256.json` 해시 목록을 생성한다. `node_modules`, 가상환경, `.runtime`, 로컬 설정과 토큰은 포함하지 않는다.

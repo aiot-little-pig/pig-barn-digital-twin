@@ -2,7 +2,7 @@
 
 돈사 내부 NH₃ 관측과 30분 예측을 3D로 보고, 시간 재생·모델 비교·가상 환기 제어를 확인하는 팀 프로젝트입니다.
 
-**처음 실행한다면 [팀 보고 및 화면 안내](TEAM_IMPLEMENTATION_BRIEF.md)를 함께 읽어주세요.** 기본 실행은 합성 관측과 Mock 예측입니다. 실제 학습 모델·현장 제어 효과는 별도 검증 대상입니다.
+기본 실행은 합성 관측과 Mock 예측입니다. 실제 학습 모델·현장 제어 효과는 별도 검증 대상입니다.
 
 ## 빠른 시작 · Windows
 
@@ -44,14 +44,12 @@ backend/              FastAPI·예측 공급자·관측 로더·수신 저장소
 tests/                프론트 데이터·제어 로직 테스트
 examples/             합성 시연 자료·연결 양식
 scripts/              실행기·데이터 송신·내보내기·패키징
-docs/history/         이전 보고서 (현재 사용법은 루트 문서 참고)
-docs/archive/         초기 기획 보관본
 .github/workflows/    push/PR 자동 테스트·빌드 설정
 setup.cmd             최초 설치·화면 빌드
 start/status/stop.cmd  로컬 시작·상태 확인·종료
 ```
 
-`node_modules`, Python 가상환경, `dist`, 로그·수신 DB·개인 설정은 저장소에서 제외합니다. 중단한 임시 공유 서버·메뉴 제한 모드는 제거했고, 현재 사용하는 v1 합성 API와 파일 호환 어댑터는 유지합니다.
+`node_modules`, Python 가상환경, `dist`, 로그·수신 DB·개인 설정은 저장소에서 제외합니다. 개인 학습 문서와 팀 내부 보고 자료도 포함하지 않습니다.
 
 ## 팀 작업과 검증
 
@@ -68,10 +66,7 @@ GitHub Actions에도 동일한 테스트·빌드·문서 링크 점검을 설정
 
 ## 문서
 
-- [팀 보고·화면 사용법](TEAM_IMPLEMENTATION_BRIEF.md)
 - [설치·실행·오류 확인](RUNBOOK.md)
-- [실제 구조 근거·센서/CSV 연결](FIELD_STRUCTURE_AND_SENSOR_GUIDE.md)
-- [모델 담당자 인계](MODEL_HANDOFF.md)
-- [개념과 설계 학습 · Phase 1](PHASE1_UNDERSTANDING_GUIDE.md)
+- [예측 API 연결 및 데이터 계약](backend/PREDICTOR_GUIDE.md)
 
 3D 치수와 센서 위치는 가정이며 히트맵은 CFD가 아닙니다. C3와 C4의 실내 곡선은 같고 C4는 배출측 처리만 추가합니다. 실제 모델의 유용성은 독립 평가 데이터와 농장별 비교로 검증해야 합니다.

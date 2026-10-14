@@ -20,3 +20,12 @@ team-dist/
 .runtime/
 deliverables/
 launcher.local.json
+
+# Local learning notes, internal reports and historical screenshots
+/PHASE1_UNDERSTANDING_GUIDE.md
+/TEAM_IMPLEMENTATION_BRIEF.md
+/MODEL_HANDOFF.md
+/FIELD_STRUCTURE_AND_SENSOR_GUIDE.md
+/docs/
+/meeting-assets/
+/stage-assets/
