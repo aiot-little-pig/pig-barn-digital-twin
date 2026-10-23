@@ -41,7 +41,7 @@
 
 ## 다른 PC에 설치
 
-**GitHub clone / Code → Download ZIP으로 받은 소스:** Python 3.12와 Node.js 22를 설치하고 프로젝트 루트에서 `.\setup.cmd` → `.\start.cmd`를 실행한다. `dist`는 Git에서 제외하므로 빌드가 필요하다. [팀 저장소](https://github.com/tangerineYR/pig-barn-digital-twin)에서 받는다.
+**GitHub clone / Code → Download ZIP으로 받은 소스:** Python 3.12와 Node.js 22를 설치하고 프로젝트 루트에서 `.\setup.cmd` → `.\start.cmd`를 실행한다. `dist`는 Git에서 제외하므로 빌드가 필요하다. [팀 저장소](https://github.com/aiot-little-pig/pig-barn-digital-twin)에서 받는다.
 
 아래 절차는 `scripts/package_release.py`로 만든 **dist 포함 전달용 ZIP**에만 해당한다.
 
