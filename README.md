@@ -9,7 +9,7 @@
 필수: **Git, Python 3.12, Node.js 22**, 최초 설치 시 인터넷 연결.
 
 ```powershell
-git clone https://github.com/tangerineYR/pig-barn-digital-twin.git
+git clone https://github.com/aiot-little-pig/pig-barn-digital-twin.git
 cd pig-barn-digital-twin
 .\setup.cmd
 .\start.cmd
